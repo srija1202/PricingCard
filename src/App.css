@@ -1,0 +1,66 @@
+/* App.css */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2291f2;
+}
+
+.pricing-table {
+  display: flex;
+  gap: 20px;
+}
+
+.pricing-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pricing-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.pricing-card li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.pricing-card .enabled {
+  color: #333;
+}
+
+.pricing-card .disabled {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.pricing-card button {
+  background: #2291f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pricing-card button:hover {
+  background: #0056b3;
+}
